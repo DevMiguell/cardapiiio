@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Macarrão ao molho",
+    "price": 20.00,
+    "max_quantity": 4,
+    "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
+    "src": "/assets/imgs/food.png"
+  },
+  {
+    "id": 2,
+    "title": "Macarrão ao molho noral",
+    "price": 40.00,
+    "max_quantity": 0,
+    "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
+    "src": "/assets/imgs/food.png"
+  },
+  {
+    "id": 3,
+    "title": "Macarrão ao molho grego",
+    "price": 50.00,
+    "max_quantity": 4,
+    "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
+    "src": "/assets/imgs/food.png"
+  }
+]

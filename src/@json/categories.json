@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Frutas",
+    "icon": "Banana.svg"
+  },
+  {
+    "name": "Hamburguer",
+    "icon": "Burger.svg"
+  },
+  {
+    "name": "Porções",
+    "icon": "Fries.svg"
+  },
+  {
+    "name": "Sorvetes",
+    "icon": "IceCream.svg"
+  },
+  {
+    "name": "Peixes",
+    "icon": "Sushi.svg"
+  }
+]
