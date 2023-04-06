@@ -11,7 +11,8 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="-mt-6 mx-auto max-w-sm">
+      
+      <div className="-mt-4 mx-auto max-w-sm">
         <input
           type="text"
           className="
@@ -57,7 +58,7 @@ export default function Home() {
           <div className="flex flex-col gap-2 mt-4">
             {comidas.map((item, i) => (
               <div 
-              onClick={() => push(`/${item.id}`)}
+              onClick={() => push(`/ecommerce/${item.id}`)}
               key={i} 
               className="flex gap-4 overflow-hidden rounded-lg bg-gray-200">
                 <img width={120} src={item.src} alt="" />

@@ -10,6 +10,7 @@ export default function Id() {
   return (
     <>
       <HeaderProduct />
+      
       <div className="-mt-6 mx-auto max-w-sm">
         <div className="flex flex-col gap-4 overflow-hidden rounded-lg bg-gray-200">
           <div className="h-72 overflow-hidden w-full">
@@ -20,9 +21,19 @@ export default function Id() {
             <p className="text-gray-700">{product?.description}</p>
             <div>
             <h2 className="text-red-500 text-4xl font-bold">R$ {product?.price}</h2>
-          
+            
             </div>
           </div>
+        </div>
+
+        <div className="mt-10">
+          <p>Observações:</p>
+        
+          <textarea 
+            rows={8}
+            placeholder="Exemplo: Sem cebola, se possivel molho extra..."
+            className="resize-none bg-gray-200 rounded-lg mt-4 p-4 w-full"
+          />
         </div>
       </div>
     </>
